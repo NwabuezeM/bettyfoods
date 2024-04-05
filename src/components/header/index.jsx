@@ -6,7 +6,7 @@ import './styles.css';
 import { useSelector } from 'react-redux';
 
 function Header() {
-    const [loggedIn, setLoggedIn] = useState(false);
+    const [loggedIn, setLoggedIn] = useState(true);
     const [toggleSearchForm, setToggleSearchForm] = useState(false);
     const [hamburgerClicked, setHamburgerClicked] = useState(false);
     const [isScrolled, setIsScrolled] = useState(false);
