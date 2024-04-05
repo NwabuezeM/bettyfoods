@@ -84,7 +84,7 @@ function Header() {
         <header className={`h-[80px] rounded-2xl flex flex-col justify-center px-4 fixed top-0 left-0 right-0 z-[999] ${isScrolled ? 'bg-yellow-900' : 'bg-transparent'}`}>
             <nav ref={navRef} className='flex justify-between items-center'>
                 <div className="site-logo">
-                    <h1 className='text-4xl lg:text-6xl text-white'>BethyFoods</h1>
+                    <h1 className='text-4xl lg:text-6xl text-white'>BettyFoods</h1>
                 </div>
                 <ul className={`menu ${hamburgerClicked ? 'show-menu' : 'hide-menu'}`}>
                     {navItems.map(item => renderNavItem(item))}
